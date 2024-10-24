@@ -1,24 +1,23 @@
 {
-  "name": "@echogarden/speex-resampler-wasm",
-  "version": "0.1.1",
-  "description": "Speex resampler, compiled to WASM. Intended for use with Echogarden.",
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "speex-resampler.cjs",
-  "files": [
-    "speex-resampler.cjs",
-    "speex-resampler.wasm",
-    "COPYING",
-    "README.md"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Echogarden project",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/echogarden-project/speex-resampler-wasm"
-  },
-  "license": "BSD-3-Clause"
+	"name": "@echogarden/speex-resampler-wasm",
+	"version": "0.2.0",
+	"description": "Speex resampler, compiled to WASM. Intended for use with Echogarden.",
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "speex-resampler.mjs",
+	"files": [
+		"speex-resampler.mjs",
+		"speex-resampler.wasm",
+		"COPYING",
+		"README.md"
+	],
+	"scripts": {
+	},
+	"author": "Echogarden project",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/echogarden-project/speex-resampler-wasm"
+	},
+	"license": "BSD-3-Clause"
 }
