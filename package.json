@@ -1,13 +1,14 @@
 {
 	"name": "@echogarden/speex-resampler-wasm",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Speex resampler, compiled to WASM. Intended for use with Echogarden.",
 	"publishConfig": {
 		"access": "public"
 	},
-	"main": "speex-resampler.mjs",
+	"main": "speex-resampler.js",
+	"type": "module",
 	"files": [
-		"speex-resampler.mjs",
+		"speex-resampler.js",
 		"speex-resampler.wasm",
 		"COPYING",
 		"README.md"
